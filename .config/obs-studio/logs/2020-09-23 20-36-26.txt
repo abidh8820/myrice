@@ -1,0 +1,39 @@
+20:36:26.952: CPU Name: Intel(R) Core(TM)2 Duo CPU     E4500  @ 2.20GHz
+20:36:26.952: CPU Speed: 2149.363MHz
+20:36:26.953: Physical Cores: 2, Logical Cores: 2
+20:36:26.953: Physical Memory: 1945MB Total, 132MB Free
+20:36:26.953: Kernel Version: Linux 5.8.10-arch1-1
+20:36:26.953: Distribution: "Arch Linux" Unknown
+20:36:26.953: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+20:36:26.956: Portable mode: false
+20:36:27.216: OBS 25.0.8-2 (linux)
+20:36:27.216: ---------------------------------
+20:36:27.217: ---------------------------------
+20:36:27.217: audio settings reset:
+20:36:27.217: 	samples per sec: 44100
+20:36:27.217: 	speakers:        2
+20:36:27.232: ---------------------------------
+20:36:27.232: Initializing OpenGL...
+20:36:27.265: X Error: GLXBadFBConfig, Major opcode: 153, Minor opcode: 34, Serial: 29
+20:36:27.265: Failed to create OpenGL context.
+20:36:27.265: Failed to create context!
+20:36:27.268: device_create (GL) failed
+20:36:27.268: Failed to initialize video.  Your GPU may not be supported, or your graphics drivers may need to be updated.
+20:36:29.192: Freeing OBS context data
+20:36:29.216: == Profiler Results =============================
+20:36:29.216: run_program_init: 2340.16 ms
+20:36:29.216:  ┣OBSApp::AppInit: 3.946 ms
+20:36:29.216:  ┃ ┗OBSApp::InitLocale: 1.566 ms
+20:36:29.216:  ┗OBSApp::OBSInit: 332.655 ms
+20:36:29.216:    ┣obs_startup: 20.138 ms
+20:36:29.216:    ┗OBSBasic::OBSInit: 51.775 ms
+20:36:29.216:      ┣OBSBasic::InitBasicConfig: 0.199 ms
+20:36:29.216:      ┣OBSBasic::ResetAudio: 0.408 ms
+20:36:29.216:      ┗OBSBasic::ResetVideo: 51.069 ms
+20:36:29.216: obs_hotkey_thread(25 ms): min=0.184 ms, median=0.265 ms, max=0.386 ms, 99th percentile=0.386 ms, 100% below 25 ms
+20:36:29.216: audio_thread(Audio): min=0.062 ms, median=0.082 ms, max=0.165 ms, 99th percentile=0.165 ms
+20:36:29.216: =================================================
+20:36:29.216: == Profiler Time Between Calls ==================
+20:36:29.216: obs_hotkey_thread(25 ms): min=25.256 ms, median=25.347 ms, max=25.473 ms, 100% within ±2% of 25 ms (0% lower, 0% higher)
+20:36:29.217: =================================================
+20:36:29.217: Number of memory leaks: 178

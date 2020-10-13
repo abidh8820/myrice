@@ -1,0 +1,39 @@
+20:40:54.452: CPU Name: Intel(R) Core(TM)2 Duo CPU     E4500  @ 2.20GHz
+20:40:54.452: CPU Speed: 2141.817MHz
+20:40:54.452: Physical Cores: 2, Logical Cores: 2
+20:40:54.452: Physical Memory: 1945MB Total, 170MB Free
+20:40:54.453: Kernel Version: Linux 5.8.10-arch1-1
+20:40:54.453: Distribution: "Arch Linux" Unknown
+20:40:54.453: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+20:40:54.454: Portable mode: false
+20:40:54.773: OBS 25.0.8-2 (linux)
+20:40:54.773: ---------------------------------
+20:40:54.774: ---------------------------------
+20:40:54.774: audio settings reset:
+20:40:54.774: 	samples per sec: 44100
+20:40:54.774: 	speakers:        2
+20:40:54.789: ---------------------------------
+20:40:54.789: Initializing OpenGL...
+20:40:54.821: X Error: GLXBadFBConfig, Major opcode: 153, Minor opcode: 34, Serial: 29
+20:40:54.821: Failed to create OpenGL context.
+20:40:54.821: Failed to create context!
+20:40:54.823: device_create (GL) failed
+20:40:54.824: Failed to initialize video.  Your GPU may not be supported, or your graphics drivers may need to be updated.
+20:41:06.129: Freeing OBS context data
+20:41:06.149: == Profiler Results =============================
+20:41:06.149: run_program_init: 11768.6 ms
+20:41:06.149:  ┣OBSApp::AppInit: 3.82 ms
+20:41:06.149:  ┃ ┗OBSApp::InitLocale: 1.482 ms
+20:41:06.149:  ┗OBSApp::OBSInit: 386.515 ms
+20:41:06.149:    ┣obs_startup: 17.301 ms
+20:41:06.149:    ┗OBSBasic::OBSInit: 49.564 ms
+20:41:06.149:      ┣OBSBasic::InitBasicConfig: 0.21 ms
+20:41:06.149:      ┣OBSBasic::ResetAudio: 0.407 ms
+20:41:06.150:      ┗OBSBasic::ResetVideo: 48.838 ms
+20:41:06.150: obs_hotkey_thread(25 ms): min=0.155 ms, median=0.266 ms, max=5.496 ms, 99th percentile=0.761 ms, 100% below 25 ms
+20:41:06.150: audio_thread(Audio): min=0 ms, median=0.084 ms, max=1.453 ms, 99th percentile=0.133 ms
+20:41:06.150: =================================================
+20:41:06.150: == Profiler Time Between Calls ==================
+20:41:06.150: obs_hotkey_thread(25 ms): min=25.215 ms, median=25.346 ms, max=26.293 ms, 97.8214% within ±2% of 25 ms (0% lower, 2.17865% higher)
+20:41:06.150: =================================================
+20:41:06.151: Number of memory leaks: 178
