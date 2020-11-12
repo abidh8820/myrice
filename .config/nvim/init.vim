@@ -127,16 +127,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
    map<F4> :w <CR> :! g++ -std=c++17 % <CR>
    map<C+s> :w 
    map<F2> : term python % 
-  let g:airline#extensions#tabline#enabled = 1
-  let g:airline_powerline_fonts = 1
-  map<F6> :w <CR> :ClangFormat <CR>
-   let g:clang_format#style_options = {
-             "AccessModifierOffset" : -4,
-             "AllowShortIfStatementsOnASingleLine" : "true",
-             "AlwaysBreakTemplateDeclarations" : "true",
-             "Standard" : "C++17",
-             "BreakBeforeBraces" : "Stroustrup"}
-autocmd FileType cpp ClangFormatAutoEnable
+   let g:airline#extensions#tabline#enabled = 1
+   let g:airline_powerline_fonts = 1
+   map<F6> :w <CR> :ClangFormat <CR>
+   autocmd FileType cpp ClangFormatAutoEnable
   set guifont=DroidSansMono\ Nerd\ Font\ 11
   let g:airline_theme='minimalist' "minimalist  lucius 
   :imap <uu> <Esc> 
