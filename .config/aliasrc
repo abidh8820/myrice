@@ -44,3 +44,6 @@ alias \
 	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
 	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
 	x="xrandr -o left" \
+	se(){ du -a ~/.config/ | awk '{print $2}' | fzf | xargs nvim ;} 
+
+	
